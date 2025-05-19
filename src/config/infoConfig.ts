@@ -33,11 +33,6 @@ export type SocialLinkType = {
 
 export const socialLinks: Array<SocialLinkType> = [
   {
-    name: 'Email',
-    icon: 'mail',
-    href: 'mailto:15396631779@163.com',
-  },
-  {
     name: 'Phone',
     icon: 'phone',
     href: 'tel:15396631779',
