@@ -3,6 +3,10 @@
     "name": "个人作品集网站",
     "description": "林承列的个人作品集网站，展示个人信息、项目和技能"
   },
+  "deployment_info": {
+    "vercel_url": "https://web-two-alpha-52.vercel.app/",
+    "github_repo": "git@github.com:SAM-yuan-shan/web.git"
+  },
   "structure": {
     "main_areas": [
       {
