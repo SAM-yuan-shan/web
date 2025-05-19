@@ -1,0 +1,86 @@
+{
+  "project": {
+    "name": "个人作品集网站",
+    "description": "林承列的个人作品集网站，展示个人信息、项目和技能"
+  },
+  "structure": {
+    "main_areas": [
+      {
+        "name": "Home",
+        "path": "/src/app/page.tsx",
+        "description": "网站主页"
+      },
+      {
+        "name": "About",
+        "path": "/src/app/about/page.tsx",
+        "description": "关于页面"
+      },
+      {
+        "name": "Projects",
+        "path": "/src/app/projects/page.tsx",
+        "description": "项目展示页面"
+      },
+      {
+        "name": "Blogs",
+        "path": "/src/app/blogs/page.tsx",
+        "description": "博客/技能页面"
+      }
+    ],
+    "config_files": [
+      {
+        "name": "导航菜单",
+        "path": "/src/config/siteConfig.ts",
+        "description": "网站导航菜单配置"
+      },
+      {
+        "name": "个人信息",
+        "path": "/src/config/infoConfig.ts",
+        "description": "个人信息配置"
+      },
+      {
+        "name": "项目信息",
+        "path": "/src/config/projects.ts",
+        "description": "项目信息配置"
+      }
+    ],
+    "layout_components": [
+      {
+        "name": "全局布局",
+        "path": "/src/app/layout.tsx",
+        "description": "网站全局布局"
+      },
+      {
+        "name": "页面头部",
+        "path": "/src/components/layout/Header.tsx",
+        "description": "网站头部导航组件"
+      },
+      {
+        "name": "页面底部",
+        "path": "/src/components/layout/Footer.tsx",
+        "description": "网站底部组件"
+      }
+    ],
+    "component_directories": [
+      {
+        "name": "主页组件",
+        "path": "/src/components/home/"
+      },
+      {
+        "name": "关于页组件",
+        "path": "/src/components/about/"
+      },
+      {
+        "name": "项目组件",
+        "path": "/src/components/project/"
+      },
+      {
+        "name": "共享组件",
+        "path": "/src/components/shared/"
+      },
+      {
+        "name": "UI组件",
+        "path": "/src/components/ui/"
+      }
+    ]
+  }
+} 
